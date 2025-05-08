@@ -1,0 +1,39 @@
+@-ms-viewport {
+  width: device-width;
+}
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #e5ddcd;
+  font-family: Marmelad;
+  color: #604051;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  font-size: 45px;
+}

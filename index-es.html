@@ -1,0 +1,1063 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Стрижка собак в Санкт-Петербурге - Груминг-салон Мими</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="https://groomimi.ru/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://groomimi.ru/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://groomimi.ru/favicon-16x16.png">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/lang.css">
+  <script src="./scripts/jquery-3.7.1.min.js" ></script>
+  <script src="./scripts/app.js" ></script>
+</head>
+<body>
+  <!-- меню сайта -->
+  <nav class="nav">
+    <div class="container">
+      <div class="navbar__wrap">
+        <div class="hamb">
+          <div class="hamb__field" id="hamb">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+        <a href="/" class="logo">
+          <img src="https://groomimi.ru/images/logo.png" alt="Mimi сеть груминг-салонов" class="logo__picture">
+        </a>
+        <ul class="menu" id="menu">
+          <li><a href="#main">Главная</a></li>
+          <li><a href="#master">О нас</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+        <div class="selectlink"> 
+          <div class="selectlink-control">Spanish</div>
+          <ul>
+            <li><a href="./index.html">Russia</a></li>
+            <li><a href="./index-en.html">English</a></li>
+            <li><a href="./index-es.html">Spanish</a></li>
+            <li><a href="./index-fr.html">French</a></li>
+            <li><a href="./index-de.html">German</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="popup" id="popup"></div> 
+  <!--  /меню сайта -->
+
+  <div class="wave wave__down--dotted wave__shadow--down"></div> <!-- волнистая линия -->
+
+  <!-- шапка сайта -->
+  <header class="header" id="main">
+    <div class="container">
+      <div class="row">
+        <div class="header__left">
+          <h1>Профессиональная стрижка собак всех пород</h1>
+          <div class="header__left--text">Первая стрижка — приятный сюрприз</div>
+          <img src="https://groomimi.ru/images/header.png" alt="Профессиональная стрижка собак всех пород" class="header__picture--mobile">
+          <form>
+            <input type="hidden" name="_token">
+            <input name="name" type="text" placeholder="Ваше имя">
+            <input name="phone" id="tel" type="tel" placeholder="Ваш телефон">
+            <input name="type" type="hidden" value="Главная">
+            <button>Перезвоните мне</button>
+            <label class="privacy">
+              <input type="checkbox" name="checkbox" required checked="checked">
+              <div class="checkbox"></div> Согласие на <a href="/privacy">обработку персональных данных</a>
+            </label>
+          </form>
+        </div>
+        <div class="header__right">
+          <img src="https://groomimi.ru/images/header.png" alt="Профессиональная стрижка собак всех пород">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /шапка сайта -->
+
+  <div class="wave wave__down"></div>
+
+  <!-- 20 лет опыт нашего мастера -->
+  <section class="section__invert section__wave">
+    <div class="container">
+      <div class="row">
+        <div class="result">
+          <div class="result__number">20</div>
+          <span>лет -</span>
+          <div class="result__text"> опыт нашего мастера</div>
+        </div>
+        <div class="result">
+          <div class="result__number">6000</div>
+          <div class="result__text">довольных клиентов</div>
+        </div>
+        <div class="result">
+          <div class="result__number">150</div>
+          <span>побед на</span>
+          <div class="result__text">международных выставках</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /20 лет опыт нашего мастера -->
+
+  <!-- наши качества -->
+  <div class="wave wave__up"></div>
+
+  <section>
+    <div class="container">
+      <div class="d-flex item__features">
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/1.svg" alt="Профессионализм" class="item__picture">
+          <div class="item__title">Профессионализм</div>
+          <div class="item__text">Дипломированные мастера с опытом работы более 20 лет, профессиональные заводчики и победители международных выставок
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/2.svg" alt="Доброта и дружелюбие" class="item__picture">
+          <div class="item__title">Доброта и дружелюбие</div>
+          <div class="item__text">Мы знаем "собачий язык" и психологию животных, очень их любим и ко всем применяем только индивидуальный подход
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/3.svg" alt="Уют и комфорт" class="item__picture">
+          <div class="item__title">Уют и комфорт</div>
+          <div class="item__text">У нас все оборудовано для удобства и комфорта ваших любимцев</div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/4.svg" alt="Удобное местоположение" class="item__picture">
+          <div class="item__title">Удобное местоположение</div>
+          <div class="item__text">Близко к центру города, бесплатная парковка, в шаговой доступности от метро
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/5.svg" alt="Безупречное качество" class="item__picture">
+          <div class="item__title">Безупречное качество</div>
+          <div class="item__text">Профессиональное оборудование и косметика мировых брендов, тщательная дезинфекция и подготовка
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /наши качества -->
+
+  <div class="wave wave__down">
+    <div class="icon icon__comb"></div>
+  </div>
+
+  <!-- наш мастер -->
+  <section class="section__invert section__wave" id="master">
+    <div class="container">
+      <h2>Наш мастер</h2>
+      <div class="row">
+        <div class="master">
+          <div class="master__picture">
+            <img src="https://groomimi.ru/images/master/1.jpg" alt="Ильинова Татьяна Анатольевна">
+          </div>
+          <div class="master__name">Ильинова Татьяна Анатольевна</div>
+          <div class="master__profession">Шеф-мастер</div>
+          <div class="master__text">
+            <p>Профессиональный грумер более 20 лет, хендлер. Владелица питомника американских кокер спаниелей «Funnynoses». Заводчик папийонов и кавалер кинг чарльз спаниелей.</p>
+          </div>
+          <details>
+            <summary class="btn__arrow btn__arrow--light">Узнать больше</summary> 
+            <span class="animated"> 
+              <p>Образование: «Базовый курс груминга» (Латвия, 1995г.). Участник Фестиваля груминга  2015, 2016, 2017 гг (ПаркЗоо, г.Москва). Повышение квалификации: экспресс-курс школы груминга кошек Надежды Румянцевой GROOMING SCHOOL FROM NADEZHDA RUMYANTSEVA; мастер-классы Р.Фомина, Т.Новиковой, Н.Румянцевой, Н.Самойловой, Е.Кульковой, М.Синицыной, Е.Левченко, Д.Гоц, О.Акуловой, Е.Левиной, О.Архиповой, О.Калашниковой  «Выставочный груминг мальтийской болонки», «Выставочная подготовка кошек», «Груминг гриффона, бордер терьера, цвергшнауцера», «Груминг бишона», «Карусель модных стрижек. Креативный груминг», «Груминг кошек. От простого к сложному», «Салонный груминг мальтезе», «Салонный груминг йоркширского терьера», «Салонный груминг ши-тцу», «Салонный груминг кошек», «Выставочный и салонный груминг американского кокер спаниеля», «Салонный груминг шпица»; «Сравнительный груминг жестко и мягкошерстного терьера» – Е. Елизарова, Н.Юрьева, «Груминг косметология» - Марко Маростони, Моник Ван Де Вен, «Шоу и пет груминг кошек» - Н. Самойлова, Е. Травинская, «Груминг брюссельского гриффона» - Марко Маростони; «Груминг голден ретривера» - А. Ягунова, «Груминг кавалер кинг чарльз спаниеля» - Ю. Сидорова, «Груминг пуделя» - О. Архипова, Марко Маростони; «Салонный и выставочный груминг сибирской кошки» - Н. Самойлова, Бьяджо Челламаре, «Груминг пуделя модерн» - Китти Декирсгиттер; «Уход за шерстью и шоу подготовка померанского шпица» - Е. Кузнецова, «Азиатский стиль в груминге» - Е. Смирнова; Специализированный семинар по грумингу кошек «Породная стрижка головы» - Н. Румянцева, Н. Самойлова</p>
+              <p>Продолжаем учиться и развиваться…</p>
+              <p>В 2017 году прошла аттестацию по категории «Салонный груминг (Коммерческая стрижка), эксперт Роман Фомин.</p>
+              <p>Профессионально готовит к выставкам собак следующих пород: американский кокер спаниель, английский кокер спаниель, папийон, кавалер кинг чарльз спаниель.</p>
+              <p>Собаки, подготовленные к выставкам в разных странах, неоднократно получали титулы САС, BOO, BOB, Юный Чемпион, CACIB,BEST-in-Puppy, BEST-in-Group, Best-in-Show, в том числе на выставках такого уровня, как Чемпионаты Мира и Чемпионаты Европы.</p>
+            </span>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /наш мастер -->
+
+  <div class="wave wave__up"></div>
+
+  <!-- сертификаты -->
+  <section>
+    <div class="container">
+      <h2>Сертификаты</h2>
+      <div id="js-certs" class="certs">
+        <a href="https://groomimi.ru/storage/certs/original/j0jrggajgOv6ThQBRT0Akb7CA.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/j0jrggajgOv6ThQBRT0Akb7CA.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/D908uEzj7atQakMWorUqTqyeW.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/D908uEzj7atQakMWorUqTqyeW.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/9KPtfHQhuhTuUoBG0cox2YQc3.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/9KPtfHQhuhTuUoBG0cox2YQc3.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/DNI5mmqXaYUo2XJtJMn0Th0yu.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/DNI5mmqXaYUo2XJtJMn0Th0yu.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/xTWAWBUSxpWOQdMf51Pc4nrif.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/xTWAWBUSxpWOQdMf51Pc4nrif.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/52Ko81DRBgsM62QnVZLreY9io.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/52Ko81DRBgsM62QnVZLreY9io.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/XLc9FFKTlXyzptJLERDouxXOX.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/XLc9FFKTlXyzptJLERDouxXOX.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/3PunbjTpO0TtLpxdDIZtt8uYX.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/3PunbjTpO0TtLpxdDIZtt8uYX.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/asV2dlf3nn47h6PWtGLTLgd5o.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/asV2dlf3nn47h6PWtGLTLgd5o.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/W1sCS1v9Kt6Uii8GqTRcUFLT2.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/W1sCS1v9Kt6Uii8GqTRcUFLT2.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/tk00IdI4Fvp1KdkmBUWiKyHSE.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/tk00IdI4Fvp1KdkmBUWiKyHSE.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/6wm1NZIvjTARY0oRE3ikRyKj8.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/6wm1NZIvjTARY0oRE3ikRyKj8.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/6B1dIOLoDlln5fr79Coge15Sp.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/6B1dIOLoDlln5fr79Coge15Sp.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/KT8IhJv3mlcxclcHY4tQXfnqU.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/KT8IhJv3mlcxclcHY4tQXfnqU.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/GMmWaeQhuJJm6zmZq5gdTKvp3.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/GMmWaeQhuJJm6zmZq5gdTKvp3.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/h4yE1II6FhbeA1wZT9icFAWae.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/h4yE1II6FhbeA1wZT9icFAWae.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/D3YRxo6Rvd5RwSIudIkUaLXJp.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/D3YRxo6Rvd5RwSIudIkUaLXJp.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/A52zKeek9XIEpxAfhzAywfwyc.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/A52zKeek9XIEpxAfhzAywfwyc.jpg" width="180" height="250" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/certs/original/Q3RDkMapH6x9lPhmfn3CJh3BN.jpg">
+          <img src="https://groomimi.ru/storage/certs/240x240/Q3RDkMapH6x9lPhmfn3CJh3BN.jpg" width="180" height="250" alt="">
+        </a>
+      </div>
+      <!-- /сертификаты -->
+
+      <!-- Победы на выставках -->
+      <h2>Победы на выставках</h2>
+      <div class="gallery wins">
+        <a href="https://groomimi.ru/storage/winners/original/oFXOWVRElcQIxQNnaRGVOHfPE.jpg">
+          <img src="https://groomimi.ru/storage/winners/240x240/oFXOWVRElcQIxQNnaRGVOHfPE.jpg" style="background-image: url('https://groomimi.ru/storage/winners/240x240/oFXOWVRElcQIxQNnaRGVOHfPE-blur.jpg');
+                background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/winners/original/jBo6M3jLoBbf2R2wO4oAbjHys.jpg">
+          <img src="https://groomimi.ru/storage/winners/240x240/jBo6M3jLoBbf2R2wO4oAbjHys.jpg" style="background-image: url('https://groomimi.ru/storage/winners/240x240/jBo6M3jLoBbf2R2wO4oAbjHys-blur.jpg');
+                         background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/winners/original/V2bPEZJjKkXtUGtxU86awhmvQ.jpg">
+          <img src="https://groomimi.ru/storage/winners/240x240/V2bPEZJjKkXtUGtxU86awhmvQ.jpg" style="background-image: url('https://groomimi.ru/storage/winners/240x240/V2bPEZJjKkXtUGtxU86awhmvQ-blur.jpg');
+                         background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/winners/original/gHOiQg47Z3ugZy6MqeKb3LAWk.jpg">
+          <img src="https://groomimi.ru/storage/winners/240x240/gHOiQg47Z3ugZy6MqeKb3LAWk.jpg" style="background-image: url('https://groomimi.ru/storage/winners/240x240/gHOiQg47Z3ugZy6MqeKb3LAWk-blur.jpg');
+                         background-size: cover" class="gallery__picture" alt="">
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <!-- /Победы на выставках -->
+
+  <div class="wave wave__down">
+    <div class="icon icon__cup"></div>
+  </div>
+
+  <!-- наши услуги -->
+  <section class="section__invert" id="services">
+    <div class="container">
+      <h2>Цены на наши услуги</h2>
+      <div id="js-tabs" class="table__tabs">
+        <input type="radio" id="tab-1" value="1" name="tabs" checked="checked">
+        <label for="tab-1">Мелкие породы</label>
+        <input type="radio" id="tab-2" value="2" name="tabs">
+        <label for="tab-2">Средние породы</label>
+        <input type="radio" id="tab-3" value="3" name="tabs">
+        <label for="tab-3">Крупные породы</label>
+        <input type="radio" id="tab-4" value="4" name="tabs">
+        <label for="tab-4">Кошки</label>
+        <input type="radio" id="tab-5" value="5" name="tabs">
+        <label for="tab-5">Доп. услуги</label>
+      </div>
+
+      <div class="tables">
+        <img src="https://groomimi.ru/images/tables.png" alt="">
+
+        <table id="js-table-1">
+          <thead>
+            <tr>
+              <td>Порода</td>
+              <td>Цена (₶)</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Бивер-йоркширский терьер</td>
+              <td>3100</td>
+            </tr>
+            <tr>
+              <td>Бишон фризе</td>
+              <td>4600</td>
+            </tr>
+            <tr>
+              <td>Гриффон</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Джек Рассел Терьер г/ш</td>
+              <td>2800</td>
+            </tr>
+            <tr>
+              <td>Йоркширский терьер</td>
+              <td>3100</td>
+            </tr>
+            <tr>
+              <td>Кавалер кинг чарльз спаниель</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Китайская хохлатая голая</td>
+              <td>3100</td>
+            </tr>
+            <tr>
+              <td>Китайская пуховка</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Мальтезе</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Мопс</td>
+              <td>2800</td>
+            </tr>
+            <tr>
+              <td>Папийон</td>
+              <td>3100</td>
+            </tr>
+            <tr>
+              <td>Пекинес</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Петербургская орхидея</td>
+              <td>3700</td>
+            </tr>
+            <tr>
+              <td>Пудель той, карликовый</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Русская салонная собачка</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Такса длинношерстная</td>
+              <td>3100</td>
+            </tr>
+            <tr>
+              <td>Той терьер д/ш</td>
+              <td>2800</td>
+            </tr>
+            <tr>
+              <td>Той терьер г/ш</td>
+              <td>2500</td>
+            </tr>
+            <tr>
+              <td>Цветная болонка</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Чихуахуа д/ш</td>
+              <td>2800</td>
+            </tr>
+            <tr>
+              <td>Чихуахуа г/ш</td>
+              <td>2500</td>
+            </tr>
+            <tr>
+              <td>Шпиц померанский, малый, немецкий</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Ши-тцу</td>
+              <td>4000</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- услуги средние -->
+        <table id="js-table-2" style="display: none">
+          <thead>
+            <tr>
+              <td>Порода</td>
+              <td>Цена (₶)</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Американский кокер-спаниель</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Английский кокер-спаниель</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Аусси (австралийская овчарка)</td>
+              <td>4600</td>
+            </tr>
+            <tr>
+              <td>Бедлингтон терьер</td>
+              <td>4600</td>
+            </tr>
+            <tr>
+              <td>Бигль</td>
+              <td>3100</td>
+            </tr>
+            <tr>
+              <td>Бордер Колли</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Вельш корги</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Кэрри блю-терьер</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Лхаса Апсо</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Мягкошерстный пшеничный терьер</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Пудель малый</td>
+              <td>4600</td>
+            </tr>
+            <tr>
+              <td>Русский спаниель</td>
+              <td>4600</td>
+            </tr>
+            <tr>
+              <td>Сиба ину</td>
+              <td>3100</td>
+            </tr>
+            <tr>
+              <td>Скай терьер</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Французский бульдог</td>
+              <td>3100</td>
+            </tr>
+            <tr>
+              <td>Шарпей</td>
+              <td>4600</td>
+            </tr>
+            <tr>
+              <td>Шелти</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Шпиц кеесхонд</td>
+              <td>7800</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- услуги крупные -->
+        <table id="js-table-3" style="display: none">
+          <thead>
+            <tr>
+              <td>Порода</td>
+              <td>Цена (₶)</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Акита американская</td>
+              <td>7800</td>
+            </tr>
+            <tr>
+              <td>Акита ину</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Аляскинский маламут</td>
+              <td>7800</td>
+            </tr>
+            <tr>
+              <td>Английский сеттер</td>
+              <td>6300</td>
+            </tr>
+            <tr>
+              <td>Афганская борзая</td>
+              <td>7800</td>
+            </tr>
+            <tr>
+              <td>Бернский зененнхунд</td>
+              <td>7800</td>
+            </tr>
+            <tr>
+              <td>Бобтейл</td>
+              <td>9300</td>
+            </tr>
+            <tr>
+              <td>Бриар</td>
+              <td>9300</td>
+            </tr>
+            <tr>
+              <td>Голден ретривер</td>
+              <td>5700</td>
+            </tr>
+            <tr>
+              <td>Ирландский терьер</td>
+              <td>6300</td>
+            </tr>
+            <tr>
+              <td>Ирландский сеттер</td>
+              <td>6300</td>
+            </tr>
+            <tr>
+              <td>Колли</td>
+              <td>7800</td>
+            </tr>
+            <tr>
+              <td>Лабрадор</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Немецкая овчарка д/ш</td>
+              <td>7800</td>
+            </tr>
+            <tr>
+              <td>Немецкая овчарка г/ш</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Ньюфаундленд</td>
+              <td>9300</td>
+            </tr>
+            <tr>
+              <td>Пудель большой</td>
+              <td>9300</td>
+            </tr>
+            <tr>
+              <td>Русский черный терьер</td>
+              <td>9300</td>
+            </tr>
+            <tr>
+              <td>Самоед</td>
+              <td>7800</td>
+            </tr>
+            <tr>
+              <td>Хаски</td>
+              <td>5600</td>
+            </tr>
+            <tr>
+              <td>Хаски д/ш</td>
+              <td>6300</td>
+            </tr>
+            <tr>
+              <td>Чау-чау</td>
+              <td>7800</td>
+            </tr>
+            <tr>
+              <td>Шотландский сеттер</td>
+              <td>6300</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- услуги кошки -->
+        <table id="js-table-4" style="display: none">
+          <thead>
+            <tr>
+              <td>Порода</td>
+              <td>Цена (₶)</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Груминг кошек без мытья</td>
+              <td>4000</td>
+            </tr>
+            <tr>
+              <td>Груминг кошек с мытьём</td>
+              <td>5000 - 6000</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- доп услуги -->
+        <table id="js-table-5" style="display: none">
+          <thead>
+            <tr>
+              <td>Порода</td>
+              <td>Цена (₶)</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Уход за ушами (чистка, удаление волос)</td>
+              <td>500-1000</td>
+            </tr>
+            <tr>
+              <td>Гигиеническая обработка глаз</td>
+              <td>500</td>
+            </tr>
+            <tr>
+              <td>Подрезание когтей, подпиливание</td>
+              <td>500-1000</td>
+            </tr>
+            <tr>
+              <td>Другие дополнительные услуги</td>
+              <td>от 500</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- конец таблицы -->
+        <p>Обращаем Ваше внимание на то, что стоимость груминга может быть увеличена или уменьшена, в зависимости от состояния шерсти, возраста и поведения собачки/кошечки (на усмотрение мастера)</p>
+        <p>Если Вы не нашли в списке название породы своего питомца, или он беспородный, обратитесь к мастеру, мы поможем разобраться к какой породе можно отнести Вашу собачку по росту и типу шерсти, и подскажем стоимость груминга.</p>
+      </div>
+
+      <!-- в комплекс входит -->
+      <div class="kit">
+        <span>В комплекс входит:</span>
+        <div class="d-flex item__features">
+          <div class="item">
+            <img src="https://groomimi.ru/images/kit/1.svg" alt="" class="item__picture">
+            <div class="item__title">Мытье</div>
+          </div>
+          <div class="item">
+            <img src="https://groomimi.ru/images/kit/2.svg" alt="" class="item__picture">
+            <div class="item__title">Сушка</div>
+          </div>
+          <div class="item">
+            <img src="https://groomimi.ru/images/kit/3.svg" alt="" class="item__picture">
+            <div class="item__title">Стрижка</div>
+          </div>
+          <div class="item">
+            <img src="https://groomimi.ru/images/kit/4.svg" alt="" class="item__picture">
+            <div class="item__title">Подстригание когтей</div>
+          </div>
+          <div class="item">
+            <img src="https://groomimi.ru/images/kit/5.svg" alt="" class="item__picture">
+            <div class="item__title">Чистка глаз и ушей</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /в комплекс входит -->
+
+  <div class="wave wave__up"></div>
+
+  <!-- Запишитесь на стрижку прямо сейчас -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="section__left">
+          <h2>Запишитесь на стрижку прямо сейчас</h2>
+          <div class="section__left--text">И получите подарок для вашего любимца</div>
+          <img src="https://groomimi.ru/images/form_1.png" alt="Профессиональная стрижка собак всех пород" class="section__left--mobile">
+          <form>
+            <input type="hidden" name="_token">
+            <input name="name" type="text" placeholder="Ваше имя">
+            <input name="phone" id="tel" type="tel" placeholder="Ваш телефон">
+            <input name="type" type="hidden" value="Главная">
+            <button>Перезвоните мне</button>
+            <label class="privacy">
+              <input type="checkbox" name="checkbox" required checked="checked">
+              <div class="checkbox"></div> Согласие на <a href="/privacy">обработку персональных данных</a>
+            </label>
+          </form>
+        </div>
+        <div class="section__right--desktop">
+          <img src="https://groomimi.ru/images/form_1.png" alt="Профессиональная стрижка собак всех пород">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Запишитесь на стрижку прямо сейчас -->
+
+  <div class="wave wave__down">
+    <div class="icon icon__bone"></div>
+  </div>
+
+  <!-- секция -->
+  <!-- галлерея -->
+  <section class="section__invert">
+    <div class="container gallery__dogs">
+      <h2>Ваш питомец будет в восторге</h2>
+      <h3>После посещения нашего салона</h3>
+      <div id="js-gallery" class="gallery gallery__invert">
+        <a href="https://groomimi.ru/storage/pets/original/qoqOxrE1ZOY5pshGvvmQopmR0.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/qoqOxrE1ZOY5pshGvvmQopmR0.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/qoqOxrE1ZOY5pshGvvmQopmR0-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/UDEaCEAalhtCvFBfZ0dLB3IYL.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/UDEaCEAalhtCvFBfZ0dLB3IYL.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/UDEaCEAalhtCvFBfZ0dLB3IYL-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/UMmIsAS90tfhdoyBcbBzJBBSn.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/UMmIsAS90tfhdoyBcbBzJBBSn.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/UMmIsAS90tfhdoyBcbBzJBBSn-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/5U4ALrhKMBJpsNAKayAJWeLlI.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/5U4ALrhKMBJpsNAKayAJWeLlI.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/5U4ALrhKMBJpsNAKayAJWeLlI-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/8znxk3HnRCZxlFrB1u7IPJCQ9.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/8znxk3HnRCZxlFrB1u7IPJCQ9.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/8znxk3HnRCZxlFrB1u7IPJCQ9-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/j3Y1nS2YW1AVO8FFMUH8nM49O.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/j3Y1nS2YW1AVO8FFMUH8nM49O.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/j3Y1nS2YW1AVO8FFMUH8nM49O-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/9iMRT0ZBYkrSmwo3kM643gJy1.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/9iMRT0ZBYkrSmwo3kM643gJy1.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/9iMRT0ZBYkrSmwo3kM643gJy1-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/AHBRwjMiOt4oYZJHuVK0jQELE.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/AHBRwjMiOt4oYZJHuVK0jQELE.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/AHBRwjMiOt4oYZJHuVK0jQELE-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/LF0ti6JzlU2eLMugZ4ZCO7DkK.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/LF0ti6JzlU2eLMugZ4ZCO7DkK.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/LF0ti6JzlU2eLMugZ4ZCO7DkK-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/y29Vh1ETOCGF3297zqpIidbEz.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/y29Vh1ETOCGF3297zqpIidbEz.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/y29Vh1ETOCGF3297zqpIidbEz-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/wGQHNCmpGoWeNYTrMkI2AZxsy.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/wGQHNCmpGoWeNYTrMkI2AZxsy.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/wGQHNCmpGoWeNYTrMkI2AZxsy-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/9nMy8VWHbKzZcfbuASNCdz0zx.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/9nMy8VWHbKzZcfbuASNCdz0zx.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/9nMy8VWHbKzZcfbuASNCdz0zx-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/TzsMXUNMzgPRZLnbCoTXLpJ6I.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/TzsMXUNMzgPRZLnbCoTXLpJ6I.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/TzsMXUNMzgPRZLnbCoTXLpJ6I-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/HsGtRCNqJJvwCsMxf0adf55nz.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/HsGtRCNqJJvwCsMxf0adf55nz.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/HsGtRCNqJJvwCsMxf0adf55nz-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/MTNHhD63R4OyouL2cnYM6ZWC6.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/MTNHhD63R4OyouL2cnYM6ZWC6.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/MTNHhD63R4OyouL2cnYM6ZWC6-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/U3s8mUQkqjvIl8QpuKmB3Kldl.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/U3s8mUQkqjvIl8QpuKmB3Kldl.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/U3s8mUQkqjvIl8QpuKmB3Kldl-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/eVXIaMspgaSartWlg42ospKWg.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/eVXIaMspgaSartWlg42ospKWg.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/eVXIaMspgaSartWlg42ospKWg-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/Xebc9ULu6FGWDBAsSQqo7kiGX.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/Xebc9ULu6FGWDBAsSQqo7kiGX.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/Xebc9ULu6FGWDBAsSQqo7kiGX-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/j0fxive3Hyy8qSrPvaKnBDyWQ.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/j0fxive3Hyy8qSrPvaKnBDyWQ.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/j0fxive3Hyy8qSrPvaKnBDyWQ-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/pets/original/fqfJkamDNQuAwnq4BGnoU5yTX.jpg">
+          <img src="https://groomimi.ru/storage/pets/240x240/fqfJkamDNQuAwnq4BGnoU5yTX.jpg" style="background-image: url('https://groomimi.ru/storage/pets/240x240/fqfJkamDNQuAwnq4BGnoU5yTX-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+      </div>
+      <!-- /галлерея -->
+
+      <div class="form__dogs">
+        <div class="form__title">Хотите также?</div>
+        <div class="form__text">Запишитесь к нам на стрижку!</div>
+        <form>
+          <input name="name" type="text" placeholder="Ваше имя">
+          <input name="phone" id="tel" type="tel" placeholder="Ваш телефон">
+          <button>Перезвоните мне</button>
+          <label class="privacy">
+            <input type="checkbox" name="checkbox" required checked="checked">
+            <div class="checkbox"></div> Согласие на <a href="/privacy">обработку персональных данных</a>
+          </label>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- /секция -->
+
+  <div class="wave wave__up"></div>
+
+  <!-- Еще неиного рекламы -->
+  <section class="quality">
+    <div class="container">
+      <h2>Качество и безопасность</h2>
+      <h3>Профессиональные инструменты и косметика</h3>
+      <div class="row">
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/10.svg" alt="Профессиональные инструменты для стрижки Gaib, Yento, Ehaso, Mastergroom, Artero, Dimi, Komondor, Chris Christensen, Artero, Show Tech и  All Sistems" class="item__picture">
+          <div class="item__text">Профессиональные инструменты для стрижки "Gaib", "Yento", "Ehaso", "Mastergroom", "Artero", "Dimi", "Komondor", "Chris Christensen", "Artero", "Show Tech" и All Sistems
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/11.svg" alt="У нас всегда чисто и уютно, а все необходимое оборудование и инструменты тщательно дезинфецируется" class="item__picture">
+          <div class="item__text">У нас всегда чисто и уютно, а все необходимое оборудование и инструменты тщательно дезинфецируется
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/12.svg" alt="Профессиональный компрессор для сушки: благодаря высокой мощности, не столько сушит, сколько выбивает влагу из густой и плотной шерсти" class="item__picture">
+          <div class="item__text">Профессиональный компрессор для сушки: благодаря высокой мощности, не столько сушит, сколько выбивает влагу из густой и плотной шерсти
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/13.svg" alt="Премиальная косметика Crown Royale (США), известные мировые марки Iv San Bernard (Италия), Anju Beaute (Франция), Pet Head (США), JEROB (США)" class="item__picture">
+          <div class="item__text">Премиальная косметика "Crown Royale" (США), известные мировые марки "Iv San Bernard" (Италия), "Anju Beaute" (Франция), "Pet Head" (США), JEROB (США)
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Еще неиного рекламы -->
+
+  <div class="wave wave__up--dotted"></div>
+
+  <!-- Еще неиного рекламы -->
+  <section class="section__invert--nobackground free">
+    <div class="container">
+      <h2>Всегда совершенно бесплатно</h2>
+      <div class="d-flex item__features">
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/14.svg" alt="Помощь и консультации по уходу и питанию" class="item__picture">
+          <div class="item__text">Помощь и консультации по уходу и питанию</div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/15.svg" alt="Фотозона с профессиональной камерой (после стрижки)" class="item__picture">
+          <div class="item__text">Фотозона с профессиональной камерой (после стрижки)</div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/16.svg" alt="Оставить любимца у нас и забрать после стрижки в удобное время" class="item__picture">
+          <div class="item__text">Оставить любимца у нас и забрать после стрижки в удобное время</div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/17.svg" alt="Чашка вкусного чая или кофе" class="item__picture">
+          <div class="item__text">Чашка вкусного чая или кофе</div>
+        </div>
+        <div class="item">
+          <img src="https://groomimi.ru/images/item/18.svg" alt="Парковка" class="item__picture">
+          <div class="item__text">Парковка</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Еще неиного рекламы -->
+
+  <div class="wave wave__down--dotted"></div>
+
+  <div class="wave wave__down"></div>
+
+  <!-- Наш салон -->
+  <section class="section__invert">
+    <div class="container">
+      <h2>Наш салон</h2>
+      <div id="js-gallery-salon" class="gallery gallery__invert">
+        <a href="https://groomimi.ru/storage/salon/original/TDordCA6L4QghfMcOtlhSRl3G.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/TDordCA6L4QghfMcOtlhSRl3G.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/TDordCA6L4QghfMcOtlhSRl3G-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/NYenVtflfGPcVrepFCXoXVOeD.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/NYenVtflfGPcVrepFCXoXVOeD.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/NYenVtflfGPcVrepFCXoXVOeD-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/vkCFQn8NBsbg0kaGf9oCo0HEX.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/vkCFQn8NBsbg0kaGf9oCo0HEX.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/vkCFQn8NBsbg0kaGf9oCo0HEX-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/k8AEBlttex3h3loWpeQmPJC7i.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/k8AEBlttex3h3loWpeQmPJC7i.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/k8AEBlttex3h3loWpeQmPJC7i-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/dvXmFhSJk0sZrBYiEKc4CA8t6.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/dvXmFhSJk0sZrBYiEKc4CA8t6.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/dvXmFhSJk0sZrBYiEKc4CA8t6-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/NdBmReK588dxjiNjiBQnAfRXF.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/NdBmReK588dxjiNjiBQnAfRXF.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/NdBmReK588dxjiNjiBQnAfRXF-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/k5XAbPhGoVb66JobFzbo5prHJ.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/k5XAbPhGoVb66JobFzbo5prHJ.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/k5XAbPhGoVb66JobFzbo5prHJ-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/vdmXMSnbTVJ9Pgv4RpNIr6Lrv.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/vdmXMSnbTVJ9Pgv4RpNIr6Lrv.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/vdmXMSnbTVJ9Pgv4RpNIr6Lrv-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/iU0FXDLKT9WHpnXFBRMjtIvFd.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/iU0FXDLKT9WHpnXFBRMjtIvFd.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/iU0FXDLKT9WHpnXFBRMjtIvFd-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/3wfr6zE2XSTdr86UQyiGo5ixg.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/3wfr6zE2XSTdr86UQyiGo5ixg.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/3wfr6zE2XSTdr86UQyiGo5ixg-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/mMuCDmw2XhvLgkG6n5DOHISHG.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/mMuCDmw2XhvLgkG6n5DOHISHG.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/mMuCDmw2XhvLgkG6n5DOHISHG-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/ss5mWFYGW48cYrFj2OEqXspS7.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/ss5mWFYGW48cYrFj2OEqXspS7.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/ss5mWFYGW48cYrFj2OEqXspS7-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/iWrA9Ysgwnf8mWC8LG5tJRofH.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/iWrA9Ysgwnf8mWC8LG5tJRofH.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/iWrA9Ysgwnf8mWC8LG5tJRofH-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+        <a href="https://groomimi.ru/storage/salon/original/0fqhryiB1Sn06QYAjdq9Zwh6u.jpg">
+          <img src="https://groomimi.ru/storage/salon/240x240/0fqhryiB1Sn06QYAjdq9Zwh6u.jpg" style="background-image: url('https://groomimi.ru/storage/salon/240x240/0fqhryiB1Sn06QYAjdq9Zwh6u-blur.jpg');
+                                     background-size: cover" class="gallery__picture" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- /Наш салон -->
+
+  <div class="wave wave__up"></div>
+
+  <!-- часто задаваемые вопросы -->
+  <section>
+    <div class="container">
+      <h2>Часто задаваемые вопросы</h2>
+        <details class="faq">
+          <summary class="faq__title">Как часто нужно ходить в салон?</summary>
+          <p class="faq__text">Когда Вас перестал устраивать внешний вид животного. Он стал неопрятный, грязный – значит, пора идти в салон. В среднем, 1 раз в 1,5-2 месяца.</p>
+        </details>
+      <details class="faq">
+        <summary class="faq__title">Почему появляется перхоть на коже?</summary>
+        <p class="faq__text">Перхоть чаще всего появляется на нервной почве, от стрессов. Если эти факторы убрать, то она быстро проходит. Также это может быть заболевание в виде аллергии на корм, на косметику, частое использование одежды, плохой уход за шерстью (наличие колтунов), сухой воздух в помещении. Если это беспокоит, то лучше обратиться к врачу и выяснить причину.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__title">Что входит в процедуру груминга?</summary>
+        <p class="faq__text">В процедуру груминга входит: подрезание когтей, чистка ушей, чистка параанальных желез (если это необходимо), мытье, сушка, вычесывание, стрижка по породе.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__title">Сколько длится стрижка?</summary>
+        <p class="faq__text">Продолжительность стрижки зависит от породы и от состояния шерсти. Для маленьких пород в среднем занимает 2-3 часа.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__title">Почему владельцу лучше не присутствовать во время стрижки?</summary>
+        <p class="faq__text">Собачки, как маленькие дети, могут манипулировать хозяевами, баловаться, пытаться прыгнуть на руки, вертеться. Профессиональный грумер знает психологию собачки, и может с ней «договориться», оставаясь наедине. В результате груминг проходит спокойно, быстро, после чего красивая собачка получает долгожданный приз – встречу с любимым хозяином.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__title">Нужно ли использовать кондиционер, если животное не выставочное?</summary>
+        <p class="faq__text">Обязательно нужно использовать кондиционер или маску, лучше той же марки, что и шампунь. Кондиционер питает, увлажняет шерсть, делает ее более послушной, легче расчесывается.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__title">С какого возраста нужно начинать стричь щенка?</summary>
+        <p class="faq__text">Приучать щенка к процедурам груминга нужно как можно раньше, для того, чтобы он привык и спокойной относился к подрезанию когтей, чистке ушей, мытью, сушке феном, в дальнейшем и к самой стрижке. Приводить в салон к профессионалам можно после того, как сделаны все необходимые прививки.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__title">Как часто нужно подстригать когти?</summary>
+        <p class="faq__text">Если собачка много гуляет по улице, когти стачиваются, и не всегда есть необходимость часто стричь когти, но если собачка гуляет мало или совсем не гуляет, когти необходимо подстригать раз в 10 дней.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__title">Можно ли использовать человеческую косметику?</summary>
+        <p class="faq__text">Нет, человеческая косметика не подходит животным. Кожа собак и кожа человека имеют очень разные Ph-балансы. Использование человеческого шампуня на собаках разрушает кислотную мантию, делая вашу собаку уязвимой к паразитам, вирусам и бактериям. Кожа становится сухой и шелушится, появляется зуд, собака начинает чесаться, что приводит к царапинам и ссадинам. Это еще больше облегчает вторжение бактерий.</p>
+      </details>
+
+      <!-- форма вопросы -->
+      <div class="question">
+        <h2>У вас остались вопросы?</h2>
+        <h3>Мы ответим!</h3>
+        <form>
+          <input name="name" type="text" placeholder="Ваше имя">
+          <input name="phone" id="tel" type="tel" placeholder="Ваш телефон">
+          <textarea name="textarea" placeholder="Ваш вопрос"></textarea>
+          <button>Перезвоните мне</button>
+          <label class="privacy">
+            <input type="checkbox" name="checkbox" required checked="checked">
+            <div class="checkbox"></div>
+            Согласие на <a href="/privacy">обработку персональных данных</a></label>
+        </form>
+      </div>
+      <!-- /форма вопросы -->
+
+      <!-- Контакты -->
+      <div class="contact" id="contact">
+        <h2>Контакты</h2>
+        <div class="row">
+          <div class="contact__map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0b0d4c1ef7ccca999a3549491c19ebef48f9acc865b17a86e886ff288ae9d952&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+          </div>
+          <div class="contact__info">
+            <div class="contact__info--title">Груминг-салон Mimi</div>
+
+            <div class="contact__info--address">Санкт-Петербург, м. проспект Славы, Международная, ул. Пражская, 35</div>
+
+            <div class="contact__info--time">Часы работы: Ежедневно с 11:00 до 22:00</div>
+
+            <a href="tel:+79215760491" class="contact__info--phone">Телефон: +7 921 576-04-91</a>
+
+            <div class="contact__info--social">
+              <div class="contact__info--title">Мы в соцсетях</div>
+
+              <a href="https://vk.com/public75935522" target="_blank" class="btn__social btn__social--vkCreamy"></a>
+
+              <a href="https://instagram.com/mimigroom_spb?igshid=1bx464jgapv9a " target="_blank" class="btn__social btn__social--inCreamy"></a>
+
+              <a href="https://www.facebook.com/groommimi/" target="_blank" class="btn__social" style="margin-left: 10px;">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50" height="50" viewBox="0 0 60.734 60.733" style="enable-background:new 0 0 60.734 60.733;" xml:space="preserve" fill="#cec09e">
+                  <g>
+                    <path d="M57.378,0.001H3.352C1.502,0.001,0,1.5,0,3.353v54.026c0,1.853,1.502,3.354,3.352,3.354h29.086V37.214h-7.914v-9.167h7.914
+                                            v-6.76c0-7.843,4.789-12.116,11.787-12.116c3.355,0,6.232,0.251,7.071,0.36v8.198l-4.854,0.002c-3.805,0-4.539,1.809-4.539,4.462
+                                            v5.851h9.078l-1.187,9.166h-7.892v23.52h15.475c1.852,0,3.355-1.503,3.355-3.351V3.351C60.731,1.5,59.23,0.001,57.378,0.001z" />
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Контакты -->
+  </section>
+
+  <div class="icon icon__home"></div>
+  <div class="wave wave__shadow--up wave__up--dotted"></div>
+
+  <!-- Повал сайта -->
+  <footer class="section__invert--nobackground footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer__block">© 2018 Груминг-салон Mimi</div>
+        <div class="footer__block">ИП Ильинова Татьяна Анатольевна ИНН 616710989329</div>
+
+        <a href="tel:+79215760491" class="footer__block footer__phone">+7 921 576-04-91</a>
+
+        <a href="/privacy" class="footer__block">Политика конфиденциальности</a>
+
+        <div class="footer__block">Санкт-Петербург, м. проспект Славы, Международная, ул. Пражская, 35</div>
+
+      </div>
+    </div>
+  </footer>
+  <script src=".//scripts/script.js"></script>
+</body>
+</html>
