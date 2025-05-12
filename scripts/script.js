@@ -30,7 +30,7 @@ function closeOnClick() {
   body.classList.remove("noscroll");
 }
 
-/*
+
 $(function() {
 	$(".selectlink-control").click(function(){
 		var $menu_popup = $(this).next();
@@ -52,4 +52,3 @@ $(function() {
 		}
 	});
 });
-*/
