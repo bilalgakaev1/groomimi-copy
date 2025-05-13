@@ -1442,8 +1442,6 @@ section {
 .wins img {
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 240px;
-  height: 240px;
 }
 .wins:last-child img {
   margin-right: 0;
