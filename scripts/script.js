@@ -72,10 +72,10 @@ function closeOnClick() {
 		  message += `\nМой вопрос: ${question}`;
 		}
 
-		// WhatsApp (если передумаете отправлять через ватсап, то закоментируйте код с это строчки до 77-й)
+		// WhatsApp (если захотите отправлять через ватсап, то раскомментируйте 77 строку)
 		const whatsappNumber = '7XXXXXXXXXX'; // замени на нужный номер
-		const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-		window.open(whatsappLink, '_blank');
+/*		const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+		window.open(whatsappLink, '_blank');*/
 
 		// Email (через Formspree)
 		fetch("https://formspree.io/f/mvgavpny", { //замените ссылку полученную после регистрации на formspree.io (туда будут отправляться заявки по почте)
