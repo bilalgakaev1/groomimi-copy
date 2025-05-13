@@ -171,7 +171,7 @@
       }); // END: Table Tabs
       // BEGIN: Carousel
     
-      $('#js-certs, .gallery, #js-reviews').magnificPopup({
+      $('#js-certs, .gallery, #js-reviews, .wins').magnificPopup({
         type: 'image',
         delegate: 'a'
       });

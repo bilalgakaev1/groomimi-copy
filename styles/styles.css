@@ -139,14 +139,14 @@
   font-size: 20px;
   align-items: stretch;
 }
-
+/*стили навигации*/
 .navbar__wrap .menu > li > a {
   display: flex;
   align-items: center;
   padding: 0 20px;
   color: #604051;
 }
-
+/*эффект при наведении на навигацию*/
 .navbar__wrap .menu > li > a:hover {
   color: rgba(255, 255, 255, 1);
 }
@@ -154,7 +154,7 @@
 .prices {
   margin-bottom: 15px;
 }
-
+/*стили для меню-бургера*/
 @media (max-width: 991px) {
   .navbar__wrap .menu {
     display: none;
@@ -175,7 +175,7 @@
     width: 30px;
     height: 3px;
     margin: 6px auto;
-    background-color: #fff;
+    background-color: #fff; /*цвет кнопки открытия меню*/
     transition: 0.2s;
   }
 
@@ -185,7 +185,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #d9c6a3; /*фоновый цвет открытого меню*/
     z-index: 100;
     display: flex;
     transition: 0.3s;
@@ -217,11 +217,16 @@
     padding: 20px 0;
     font-size: 20px;
     font-weight: bold;
-    color: #3f3f3f;
+    color: #3f3f3f; /*цвет текста в открытом меню*/
   }
 
   .popup .menu > li > a:hover {
-    background-color: rgba(122, 82, 179, 0.1);
+    background-color: rgba(
+      122,
+      82,
+      179,
+      0.1
+    ); /*цвет текста в открытом меню при наведении*/
   }
 
   .hamb__field.active .bar:nth-child(2) {
@@ -1448,6 +1453,31 @@ section {
   }
 }
 
+/*сообщение об успешной отправке формы*/
+.thank-you-message {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+/*сообщение с просьбой заполнить поля*/
+.warning-message {
+  background-color: #e14059;
+  color: white;
+  border: 1px solid #c3e6cb;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+/*победы на выстовках*/
 .wins {
   display: flex;
   justify-content: center;

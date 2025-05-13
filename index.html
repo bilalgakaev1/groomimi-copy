@@ -67,17 +67,22 @@
           <h1>Профессиональная стрижка собак всех пород</h1>
           <div class="header__left--text">Первая стрижка — приятный сюрприз</div>
           <img src="images/header.png" alt="Профессиональная стрижка собак в Испании, Дения" class="header__picture--mobile">
-          <form>
-            <input type="hidden" name="_token">
+          <form class="lead-form">
             <input name="name" type="text" placeholder="Ваше имя">
             <input name="phone" id="tel" type="tel" placeholder="Ваш телефон">
-            <input name="type" type="hidden" value="Главная">
+            <input name="textarea" type="hidden" value="Вопросов нет">
             <button>Перезвоните мне</button>
             <label class="privacy">
               <input type="checkbox" name="checkbox" required checked="checked">
               <div class="checkbox"></div> Согласие на <a href="privacy">обработку персональных данных</a>
             </label>
           </form>
+          <div class="thank-you-message" style="display: none;">
+            Спасибо, мы перезвоним!
+          </div>
+          <div class="warning-message" style="display: none;">
+            Пожалуйста, заполните все поля!
+          </div>          
         </div>
         <div class="header__right">
           <img src="images/header.png" alt="Профессиональная стрижка собак всех пород">
@@ -87,6 +92,7 @@
   </header>
   <!-- /шапка сайта -->
 
+ 
   <div class="wave wave__down"></div>
   <!-- 20 лет опыт нашего мастера -->
   <section class="section__invert section__wave">
@@ -641,17 +647,22 @@
           <h2>Запишитесь на стрижку прямо сейчас</h2>
           <div class="section__left--text">И получите подарок для вашего любимца</div>
           <img src="images/form_1.png" alt="Профессиональная стрижка собак всех пород" class="section__left--mobile">
-          <form>
-            <input type="hidden" name="_token">
+          <form class="lead-form">
             <input name="name" type="text" placeholder="Ваше имя">
             <input name="phone" id="tel" type="tel" placeholder="Ваш телефон">
-            <input name="type" type="hidden" value="Главная">
+            <input name="textarea" type="hidden" value="Вопросов нет">
             <button>Перезвоните мне</button>
             <label class="privacy">
               <input type="checkbox" name="checkbox" required checked="checked">
               <div class="checkbox"></div> Согласие на <a href="/privacy">обработку персональных данных</a>
             </label>
           </form>
+          <div class="thank-you-message" style="display: none;">
+            Спасибо, мы перезвоним!
+          </div>
+          <div class="warning-message" style="display: none;">
+            Пожалуйста, заполните все поля!
+          </div>   
         </div>
         <div class="section__right--desktop">
           <img src="images/form_1.png" alt="Профессиональная стрижка собак всех пород">
@@ -742,15 +753,22 @@
       <div class="form__dogs">
         <div class="form__title">Хотите также?</div>
         <div class="form__text">Запишитесь к нам на стрижку!</div>
-        <form>
+        <form class="lead-form">
           <input name="name" type="text" placeholder="Ваше имя">
           <input name="phone" id="tel" type="tel" placeholder="Ваш телефон">
+          <input name="textarea" type="hidden" value="Вопросов нет">
           <button>Перезвоните мне</button>
           <label class="privacy">
             <input type="checkbox" name="checkbox" required checked="checked">
             <div class="checkbox"></div> Согласие на <a href="/privacy">обработку персональных данных</a>
           </label>
         </form>
+        <div class="thank-you-message" style="display: none;">
+          Спасибо, мы перезвоним!
+        </div>
+        <div class="warning-message" style="display: none;">
+          Пожалуйста, заполните все поля!
+        </div>   
       </div>
     </div>
   </section>
@@ -906,7 +924,7 @@
       <div class="question">
         <h2>У вас остались вопросы?</h2>
         <h3>Мы ответим!</h3>
-        <form>
+        <form class="lead-form">
           <input name="name" type="text" placeholder="Ваше имя">
           <input name="phone" id="tel" type="tel" placeholder="Ваш телефон">
           <textarea name="textarea" placeholder="Ваш вопрос"></textarea>
@@ -916,6 +934,12 @@
             <div class="checkbox"></div>
             Согласие на <a href="/privacy">обработку персональных данных</a></label>
         </form>
+        <div class="thank-you-message" style="display: none;">
+          Спасибо, мы перезвоним!
+        </div>
+        <div class="warning-message" style="display: none;">
+          Пожалуйста, заполните все поля!
+        </div> 
       </div>
       <!-- /форма вопросы -->
 
