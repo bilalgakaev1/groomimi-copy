@@ -93,6 +93,7 @@
 .master {
   flex: 0 0 50%;
   max-width: 50%;
+  padding: 10px 15px 0 15px;
 }
 
 .section__left,
@@ -148,6 +149,10 @@
 
 .navbar__wrap .menu > li > a:hover {
   color: rgba(255, 255, 255, 1);
+}
+
+.prices {
+  margin-bottom: 15px;
 }
 
 @media (max-width: 991px) {
@@ -740,6 +745,10 @@ form label::after {
   }
 }
 
+.our-salon {
+  margin-bottom: 15px;
+}
+
 .gallery {
   padding: 0 15px;
 }
@@ -1029,7 +1038,7 @@ table td {
     display: block;
   }
   .free .item__features .item:last-of-type {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
   }
   .free .d-flex {
     display: block;
@@ -1060,8 +1069,13 @@ table td {
 }
 
 .quality h2 {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
+
+.always {
+  margin-bottom: 15px;
+}
+
 .quality .item__picture {
   margin-bottom: 15px;
   width: 150px;
@@ -1125,7 +1139,7 @@ section {
 
 .section__invert {
   background: url("../images//background/background.png") repeat #d9c6a3;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .section__invert--nobackground {
   background: #d9c6a3;
