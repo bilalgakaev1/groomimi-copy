@@ -105,7 +105,7 @@
           galleryItem.slice(i, i + 2).wrapAll("<div class='gallery__twocolums'></div>");
         }
     
-        var gallery_dogs = new Flickity("js-gallery", {
+        var gallery_dogs = new Flickity("#js-gallery", {
           freeScroll: false,
           pageDots: false,
           groupCells: 4,
